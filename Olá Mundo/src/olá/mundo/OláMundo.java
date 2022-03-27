@@ -5,10 +5,6 @@
  */
 package olá.mundo;
 
-/**
- *
- * @author Administrador
- */
 public class OláMundo {
 
     /**
@@ -17,6 +13,19 @@ public class OláMundo {
     public static void main(String[] args) {
        
         System.out.println("Olá Mundo");
+              
+        String nome ="lucas";
+        System.out.println(nome);
+ 
+        if(nome == "lucas"){
+            System.out.println("oi");
+        }else{
+            System.out.println("tchau");
+        }
+        Caneta c1 = new Caneta();
+        c1.nome = "caneta azul";
+        c1.status ();
+        
+                
     }
-    
 }
